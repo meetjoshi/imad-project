@@ -2,6 +2,8 @@ from flask import Flask, request, json
 from flask import render_template, jsonify
 from flask import make_response
 from flask import abort
+from flask import send_file
+from flask import redirect, url_for
 # pip install requests <-- to import the library
 import requests
 import simplejson
@@ -50,13 +52,15 @@ def authors():
 @app.route('/setcookie')
 def setcookie():
     response = make_response('Setting cookie!')
-    response.set_cookie("meet", "21")
+    response.set_cookie("name", "Meet")
+    response.set_cookie("age", "21")
     return response
 
 @app.route('/getcookies')
 def getcookie():
-    cookievalue = request.cookies.get('meet')
-    return cookievalue
+    name_cookievalue = request.cookies.get('name')
+    age_cookievalue = request.cookies.get('age')
+    return name_cookievalue + " " + age_cookievalue
 
 @app.route('/robots.txt')
 def limit_remote_addr():
@@ -74,7 +78,17 @@ def html():
 
 @app.route('/image')
 def image():
-	return render_template('panorama.jpg')
+	return "<img src = 'static/images/panorama.jpg'>"
+
+@app.route('/input')
+def input():
+	return render_template('input.html')
+
+@app.route('/endpoint', methods=['GET', 'POST'])
+def endpoint():
+	if request.method == 'POST':
+		result = request.form
+		return render_template("result.html", result = result)
 
 if __name__ == "__main__":
     app.run()
