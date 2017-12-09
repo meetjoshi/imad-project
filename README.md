@@ -7,11 +7,11 @@ Steps to run the app:
 3. Install flask
 
 I installed:
-	python (globally: PYTHON_HOME)
-	pip (pip include libraries whenever required)
-	flask (globally: FLASK_APP)
-		setup virtual environment
-		flask debugger (globally: FLASK_DEBUG)
-	git-bash
-	sublime text 3
+	*python (globally: PYTHON_HOME)
+	*pip (pip include libraries whenever required)
+	*flask (globally: FLASK_APP)
+		-setup virtual environment
+		-flask debugger (globally: FLASK_DEBUG)
+	*git-bash
+	*sublime text 3
 
