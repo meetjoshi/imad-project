@@ -8,9 +8,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Prerequisites
 
-Python (I am using python 2.7 on Windows 7)
-Pip
-Flask (debugger and virtual environment recommended)
+* Python (I am using python 2.7 on Windows 7)
+* Pip
+* Flask (debugger and virtual environment recommended)
 
 ## Installing
 
@@ -30,9 +30,9 @@ Check if everything is setup and good to go by running a basic flask app (mentio
 
 ## Deployment
 
-Pull the contents of the Repo in your Flask folder
-Run the Flask app
-Look at the routes in __inti__.py file and visit them to see the results
+* Pull the contents of the Repo in your Flask folder
+* Run the Flask app
+* Look at the routes in __inti__.py file and visit them to see the results
 
 ## Built With
 
