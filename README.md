@@ -1,6 +1,5 @@
 # imad-project
 
-HPDF Project
 This project is a part of Hasura Product Development Fellowship (4th Dec, 2017 - 10th Feb, 2018)
 
 ## Getting Started
@@ -51,7 +50,10 @@ Look at the routes in __inti__.py file and visit them to see the results
 
 ## Authors
 
+* **Mentor** - *Technical Guidance* - [Website](https://github.com/)
 * **Meet Joshi** - *Initial work* - [Website](https://meetjoshi.github.io/)
+* **TM1** - *Initial work* - [Website](https://github.com/)
+* **TM2** - *Initial work* - [Website](https://github.com/)
 
 See also the list of [contributors](https://github.com/meetjoshi/imad-project/contributors) who participated in this project.
 
