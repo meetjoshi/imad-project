@@ -8,6 +8,7 @@ from flask import redirect, url_for
 import requests
 import simplejson
 import json
+import sys
 
 app = Flask(__name__) 
 
@@ -87,8 +88,12 @@ def input():
 @app.route('/endpoint', methods=['GET', 'POST'])
 def endpoint():
 	if request.method == 'POST':
-		result = request.form
-		return render_template("result.html", result = result)
+		#result = request.form
+		#return render_template("result.html", result = result)
+		result = request.form['name']
+		file = sys.stdout
+		print(result, file)
+		return "Output is on the terminal"
 
 if __name__ == "__main__":
     app.run()
