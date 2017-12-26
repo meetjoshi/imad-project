@@ -51,9 +51,12 @@ Check if everything is setup and good to go by running a basic flask app (mentio
 ## Authors
 
 * **Mentor** - *Technical Guidance* - [Website](https://github.com/)
-* **Meet Joshi** - *Initial work* - [Website](https://meetjoshi.github.io/)
-* **TM1** - *Initial work* - [Website](https://github.com/)
-* **TM2** - *Initial work* - [Website](https://github.com/)
+* **(T46NE1) Karan Sanjeev Nair** - *Backend: NodeJS-Express* - [Website](https://github.com/smartclash/HPDF)
+* **(T46NE1) Naveen Dahiya** - *Frontend: ReactJS* - [Website](https://github.com/)
+* **(T46NE1) Tushar** - *Frontend: React-Native* - [Website](https://github.com/)
+* **(T46PF1) Bony Fus** - *Frontend: ReactJS* - [Website](https://github.com/)
+* **(T46PF1) Hari Prasad** - *Frontend: ReactJS* - [Website](https://github.com/HariPrasad005/Twitter-clone)
+* **(T46PF1) Meet Joshi** - *Backend: Python-Flask* - [Website](https://meetjoshi.github.io/)
 
 See also the list of [contributors](https://github.com/meetjoshi/imad-project/contributors) who participated in this project.
 
