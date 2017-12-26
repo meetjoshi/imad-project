@@ -70,7 +70,7 @@ NONE
 * I would thank NPTEL, IIT Madras and Hasura for a wonderful tie-up and providing us an opportunity to learn so much in so little time.
 * Live video sessions by Tanmai Gopal and Rajoshi Ghosh have been an inspiration and motivating force to complete the IMAD course. It helped me let believe in myself and keep pushing my limits to complete the course successfully.
 * I would like to thank hasura team and all my fellow interns who have contributed on the discourse forum.
-* I thank my mentor and fellow team members for the time and efforts they have put behind the project.
+* I thank my mentor and fellow team members for the time and efforts they have put behind this project.
 * And all those who helped directly or indirectly to make this course bigger and better over time.
 
 
