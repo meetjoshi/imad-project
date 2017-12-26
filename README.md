@@ -14,17 +14,18 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Installing
 
-```
 1. Install python globally
 2. Install pip globally
 3. Install flask
 4. [Setup](https://youtu.be/98JY6MvumVs) Flask Virtual Environment
 5. Enable flask debug mode globally, to run the app in debug mode globally
 6. Keep including packages in flask using 'pip install "package name"' whenever required
+
 ```
 Not mandatory / I also used
 1. Git-bash
 2. Sublime Text 3
+```
 
 Check if everything is setup and good to go by running a basic flask app (mentioned in Step 4. video)
 
